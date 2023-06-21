@@ -86,7 +86,10 @@ initTE({ Collapse, Dropdown });
           <li class="mb-4 ml-8 lg:mb-0 lg:pr-2" data-te-nav-item-ref></li>
           <!-- engranaje -->
 
-          <a class="rounded-lg bg-teal-400 p-3 text-white" href="#">
+          <a
+            class="rounded-lg bg-teal-400 p-3 text-white hover:bg-white hover:text-teal-400"
+            href="#"
+          >
             <span class="[&>svg]:w-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +110,10 @@ initTE({ Collapse, Dropdown });
       <!-- Elementos derecha -->
       <div class="relative flex items-center">
         <!-- Campana Icono -->
-        <a class="mr-4 rounded-lg bg-gray-700 p-3 text-teal-400" href="#">
+        <a
+          class="mr-4 rounded-lg bg-gray-700 p-3 text-teal-400 hover:bg-teal-400 hover:text-gray-700"
+          href="#"
+        >
           <span class="[&>svg]:w-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +130,10 @@ initTE({ Collapse, Dropdown });
         </a>
 
         <!-- Sobre icono-->
-        <a class="mr-4 rounded-lg bg-gray-700 p-3 text-teal-400" href="#">
+        <a
+          class="mr-4 rounded-lg bg-gray-700 p-3 text-teal-400 hover:bg-teal-400 hover:text-gray-700"
+          href="#"
+        >
           <span class="[&>svg]:w-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +161,9 @@ initTE({ Collapse, Dropdown });
             aria-expanded="false"
           >
             <!-- Icono regalo -->
-            <span class="rounded-lg bg-gray-700 p-3 text-teal-400 [&>svg]:w-5">
+            <span
+              class="rounded-lg bg-gray-700 p-3 text-teal-400 hover:bg-teal-400 hover:text-gray-700 [&>svg]:w-5"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="1em"
