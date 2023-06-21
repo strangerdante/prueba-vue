@@ -1,7 +1,11 @@
 <template>
   <div class="flex-col p-6">
-    <div>
-      <p class="font-bold text-white">456k Pcs</p>
+    <div class="flex-col">
+      <div class="flex">
+        <p class="font-bold text-white">456k Pcs</p>
+        <p class="ml-auto text-white">Daily</p>
+      </div>
+
       <p class="text-gray-500">Ticket Sold</p>
     </div>
 

@@ -191,7 +191,7 @@ initTE({ Collapse, Dropdown });
                 ></svg>
               </span>
             </a>
-            David
+            Jamel
           </a>
           <!-- First dropdown menu -->
           <ul

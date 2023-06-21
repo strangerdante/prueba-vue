@@ -1,5 +1,10 @@
 <template>
-  <swiper-container class="rounded-xl">
+  <swiper-container
+    class="rounded-xl"
+    navigation="true"
+    pagination="true"
+    scrollbar="true"
+  >
     <swiper-slide
       ><img src="https://picsum.photos/1200/400?random=1"
     /></swiper-slide>

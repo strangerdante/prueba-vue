@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       data: {
-        labels: ["Movies Ticket", "Music Ticket", "Footbal Ticket"],
+        labels: ["Movies", "Music", "Footbal"],
         datasets: [
           {
             data: [35, 10, 55],
@@ -35,8 +35,8 @@ export default {
         responsive: true,
         plugins: {
           legend: {
-            position: "bottom",
-            align: "start",
+            position: "right",
+            align: "center",
             labels: {
               usePointStyle: true,
               pointStyle: "circle",
